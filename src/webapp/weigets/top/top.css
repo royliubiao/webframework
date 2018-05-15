@@ -1,0 +1,17 @@
+:root{
+	--mainColor:#3da0e0;
+};
+.weigets-top{
+	background: var(--mainColor);
+	.item__li{
+		float: left;
+	}
+	.item__li-actived{
+		color:#3da0e0;
+		text-decoration: underline;
+	}
+	.item__li:hover{
+		color:yellow;
+		background: #000;
+	}
+}

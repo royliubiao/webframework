@@ -1,0 +1,21 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>{% block title %}Roy小脚手架{% endblock %}</title>
+    {% block head %}{% endblock %}
+    <!-- 样式载入区域 -->
+    {% block styles %}{% endblock %}
+</head>
+<body>
+	<div class="container">
+		<!-- html主题内容 -->
+            {% block content %}{% endblock %}
+	</div>
+    <!-- js载入区域 -->
+    {% block scripts %}{% endblock %}
+</body>
+</html>
